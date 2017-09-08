@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SWARM_App.Pages.Client_Sec.AddClient" BackgroundColor="#67819F">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Label Text="Name:" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" />
+                <Entry Grid.Row="0" Grid.Column="1" VerticalOptions="Center" Placeholder="Email" BackgroundColor="#B3B3B3" />
+                <Label Text="Address:" Grid.Row="1" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" />
+                <Entry Grid.Row="1" Grid.Column="1" VerticalOptions="Center" Placeholder="Email" BackgroundColor="#B3B3B3" />
+                <Label Text="Phone:" Grid.Row="2" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" />
+                <Entry Grid.Row="2" Grid.Column="1" VerticalOptions="Center" Placeholder="Email" BackgroundColor="#B3B3B3" Keyboard="Telephone" />
+                <Label Text="Email:" Grid.Row="3" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" />
+                <Entry Grid.Row="3" Grid.Column="1" VerticalOptions="Center" Placeholder="Email" BackgroundColor="#B3B3B3" Keyboard="Email" />
+                <Label Text="Client Type" Grid.Row="4" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" />
+                <Picker Grid.Row="4" Grid.Column="1" x:Name="IndustryTypePicker1" SelectedIndex="{Binding Industry}" HorizontalOptions="FillAndExpand">
+                <Picker.Items>
+                    <x:String>Residential</x:String>
+                    <x:String>Commercial</x:String>
+                </Picker.Items>
+            </Picker>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

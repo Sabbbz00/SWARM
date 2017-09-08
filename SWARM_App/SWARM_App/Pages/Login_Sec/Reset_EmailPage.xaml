@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SWARM_App.Pages.Login_Sec.Reset_EmailPage" BackgroundColor="#67819F">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Enter your Email" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" />
+            <Entry x:Name="emailText" VerticalOptions="Center" Placeholder="Email" BackgroundColor="#B3B3B3" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Button Text="Back" Grid.Column="1" TextColor="Black" VerticalOptions="Center" BackgroundColor="White" Clicked="BackButton_Clicked"/>
+                <Button Text="Next" Grid.Column="2" TextColor="Black" VerticalOptions="Center"  BackgroundColor="White" Clicked="NextButton_Clicked"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

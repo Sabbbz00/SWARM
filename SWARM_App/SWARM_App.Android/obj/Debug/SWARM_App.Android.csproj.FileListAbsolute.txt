@@ -1,0 +1,95 @@
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/SWARM_App.Android.dll
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/SWARM_App.Android.pdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/SWARM_App.Android.apk
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/SWARM_App.Android-Signed.apk
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/FormsViewGroup.dll
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/SWARM_App.dll
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Android.Support.Design.dll
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Android.Support.v4.dll
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Android.Support.v7.AppCompat.dll
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Android.Support.v7.CardView.dll
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Android.Support.v7.MediaRouter.dll
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Android.Support.v7.RecyclerView.dll
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Android.Support.Vector.Drawable.dll
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Core.dll
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Platform.dll
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Xaml.dll
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/SWARM_App.pdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/FormsViewGroup.pdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Core.pdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Core.xml
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Platform.Android.pdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Xaml.pdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Xaml.xml
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/SWARM_App.Android.csprojResolveAssemblyReference.cache
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/SWARM_App.Android.csproj.CoreCompileInputs.cache
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/SWARM_App.Android.dll
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/SWARM_App.Android.pdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/android/bin/SWARM_App.Android.apk
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/res/drawable/icon.png
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/res/drawable-hdpi/icon.png
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/res/drawable-xhdpi/icon.png
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/res/drawable-xxhdpi/icon.png
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/res/layout/tabbar.xml
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/res/layout/toolbar.xml
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/res/values/styles.xml
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/R.cs.flag
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/uploadflags.txt
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/SWARM_App.dll.mdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/FormsViewGroup.dll.mdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Core.dll.mdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/SWARM_App.Android.dll.mdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/android/assets/FormsViewGroup.dll.mdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/android/assets/SWARM_App.Android.dll.mdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/android/assets/SWARM_App.dll.mdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/android/assets/Xamarin.Forms.Core.dll.mdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/android/assets/Xamarin.Forms.Platform.Android.dll.mdb
+C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/android/assets/Xamarin.Forms.Xaml.dll.mdb
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/SWARM_App.Android.dll
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/SWARM_App.Android.pdb
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/SWARM_App.Android.apk
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/SWARM_App.Android-Signed.apk
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/FormsViewGroup.dll
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/SWARM_App.dll
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Android.Support.Design.dll
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Android.Support.v4.dll
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Android.Support.v7.AppCompat.dll
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Android.Support.v7.CardView.dll
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Android.Support.v7.MediaRouter.dll
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Android.Support.v7.RecyclerView.dll
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Android.Support.Vector.Drawable.dll
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Core.dll
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/SWARM_App.pdb
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/SWARM_App.dll.mdb
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/FormsViewGroup.pdb
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/FormsViewGroup.dll.mdb
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Core.pdb
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Core.dll.mdb
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Core.xml
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Platform.Android.pdb
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Xaml.pdb
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/SWARM_App.Android.csprojResolveAssemblyReference.cache
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/SWARM_App.Android.csproj.CoreCompileInputs.cache
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/SWARM_App.Android.dll
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/SWARM_App.Android.pdb
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/android/bin/SWARM_App.Android.apk
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/res/drawable/icon.png
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/res/drawable-hdpi/icon.png
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/res/drawable-xhdpi/icon.png
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/res/drawable-xxhdpi/icon.png
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/res/layout/tabbar.xml
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/res/layout/toolbar.xml
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/res/values/styles.xml
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/R.cs.flag
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App.Android/obj/Debug/uploadflags.txt

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:SWARM_App" x:Class="SWARM_App.MainPage" BackgroundColor="#67819F">
+    <StackLayout>
+        <Label Text="SWARM" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" />
+        <Entry x:Name="emailText" Placeholder="Email" BackgroundColor="#B3B3B3" />
+        <Entry x:Name="passwordText" Placeholder="Password" BackgroundColor="#B3B3B3" IsPassword="True" />
+        <Button Text="Login" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" Clicked="LoginButton_Clicked" />
+        <Button Text="Forgot Password" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" Clicked="ResetButton_Clicked" />
+    </StackLayout>
+</ContentPage>
