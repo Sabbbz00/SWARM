@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SWARM_App.Pages.Client_Sec.AddClient" BackgroundColor="#67819F">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SWARM_App.Pages.Client_Sec.AddClient" BackgroundColor="#67819F" Title="Add Client">
     <ContentPage.Content>
         <StackLayout>
             <Grid>
@@ -19,12 +19,15 @@
                 <Entry Grid.Row="3" Grid.Column="1" VerticalOptions="Center" Placeholder="Email" BackgroundColor="#B3B3B3" Keyboard="Email" />
                 <Label Text="Client Type" Grid.Row="4" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" />
                 <Picker Grid.Row="4" Grid.Column="1" x:Name="IndustryTypePicker1" SelectedIndex="{Binding Industry}" HorizontalOptions="FillAndExpand">
-                <Picker.Items>
-                    <x:String>Residential</x:String>
-                    <x:String>Commercial</x:String>
-                </Picker.Items>
-            </Picker>
+                    <Picker.Items>
+                        <x:String>Residential</x:String>
+                        <x:String>Commercial</x:String>
+                    </Picker.Items>
+                </Picker>
             </Grid>
         </StackLayout>
     </ContentPage.Content>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Done" Order="Primary" Priority="1" Clicked="NextClicked"/>
+    </ContentPage.ToolbarItems>
 </ContentPage>

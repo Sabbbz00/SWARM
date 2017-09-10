@@ -53,8 +53,7 @@ namespace SWARM_App
 		}
 		private void AddButton_Clicked(object sender, EventArgs e)
 		{
-            var test = new Add_CalendarItem();
-			App.Current.MainPage = test;
+            Navigation.PushAsync(new Add_CalendarItem());
 		}
     }
 }

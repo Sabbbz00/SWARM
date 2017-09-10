@@ -11,5 +11,9 @@ namespace SWARM_App.Pages.Client_Sec
         {
             InitializeComponent();
         }
+		private void NextClicked(object sender, EventArgs e)
+		{
+            Navigation.PopAsync();
+		}
     }
 }

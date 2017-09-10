@@ -58,3 +58,5 @@ C:/Users/Kim Montes/Documents/Visual Studio 2017/Projects/SWARM_App/SWARM_App/SW
 /Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App/obj/Debug/SWARM_App.Pages.Login_Sec.Reset_NewPassword.xaml.g.cs
 /Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App/obj/Debug/SWARM_App.Pages.Client_Sec.AddClient.xaml.g.cs
 /Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App/obj/Debug/SWARM_App.Pages.Calendar_Sec.Add_CalendarItem.xaml.g.cs
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App/obj/Debug/SWARM_App.Pages.Invoice_Sec.InvoiceAdd.xaml.g.cs
+/Users/kimmontes/Documents/SWARM/SWARM_App/SWARM_App/SWARM_App/obj/Debug/SWARM_App.Pages.Employee_Sec.AddEmployee.xaml.g.cs

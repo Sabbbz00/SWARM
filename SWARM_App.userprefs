@@ -1,30 +1,6 @@
 ﻿<Properties StartupConfiguration="{FD8C08C4-B3F2-4929-B307-83C9211A3D28}|Default">
   <MonoDevelop.Ide.ItemProperties.SWARM__App.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.26D4BFCC-F721-480C-AB88-A1BAE6EB6B58" />
-  <MonoDevelop.Ide.Workbench>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="SWARM_App" expanded="True">
-            <Node name="SWARM_App" expanded="True">
-              <Node name="Pages" expanded="True">
-                <Node name="Calendar_Sec" expanded="True">
-                  <Node name="Add_CalendarItem.xaml" expanded="True" />
-                  <Node name="Calendar.xaml" expanded="True" />
-                </Node>
-                <Node name="Client_Sec" expanded="True">
-                  <Node name="AddClient.xaml" expanded="True">
-                    <Node name="AddClient.xaml.cs" selected="True" />
-                  </Node>
-                  <Node name="Clients.xaml" expanded="True" />
-                </Node>
-              </Node>
-            </Node>
-            <Node name="SWARM_App.iOS" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>

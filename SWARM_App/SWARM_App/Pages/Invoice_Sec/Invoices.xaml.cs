@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
+using SWARM_App;
+using SWARM_App.Pages;
+using SWARM_App.Pages.Invoice_Sec;
 namespace SWARM_App
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -47,6 +49,13 @@ namespace SWARM_App
 		{
 			var dataItem = e.Item as Person;
 			DisplayAlert("Error", dataItem.Name, "Retry");
+		}
+		private void AddButton_Clicked(object sender, EventArgs e)
+		{
+            Navigation.PushAsync(new InvoiceAdd());
+			//var test = new NavigationPage(new AddClient());
+			//test.Title = "Add Client";
+			//App.Current.MainPage = test;
 		}
     }
 }

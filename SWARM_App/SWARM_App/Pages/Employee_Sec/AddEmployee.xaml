@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SWARM_App.Pages.Employee_Sec.AddEmployee" BackgroundColor="#67819F" Title="Add Client">
+	<ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Label Text="Employee Type" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" />
+                <Picker Grid.Row="0" Grid.Column="1" x:Name="IndustryTypePicker1" SelectedIndex="{Binding Industry}" HorizontalOptions="FillAndExpand">
+                    <Picker.Items>
+                        <x:String>Manager</x:String>
+                        <x:String>Regular Employee</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Label Text="Name:" Grid.Row="1" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" />
+                <Entry Grid.Row="1" Grid.Column="1" VerticalOptions="Center" Placeholder="Email" BackgroundColor="#B3B3B3" />
+                <Label Text="Address:" Grid.Row="2" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" />
+                <Entry Grid.Row="2" Grid.Column="1" VerticalOptions="Center" Placeholder="Email" BackgroundColor="#B3B3B3" />
+                <Label Text="Phone:" Grid.Row="3" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" />
+                <Entry Grid.Row="3" Grid.Column="1" VerticalOptions="Center" Placeholder="Email" BackgroundColor="#B3B3B3" Keyboard="Telephone" />
+                <Label Text="Email:" Grid.Row="4" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" />
+                <Entry Grid.Row="4" Grid.Column="1" VerticalOptions="Center" Placeholder="Email" BackgroundColor="#B3B3B3" Keyboard="Email" />
+                <Label Text="Emergency Contact:" Grid.Row="5" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" />
+                <Entry Grid.Row="5" Grid.Column="1" VerticalOptions="Center" Placeholder="Email" BackgroundColor="#B3B3B3" Keyboard="Email" />
+                <Label Text="Phone:" Grid.Row="6" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" />
+                <Entry Grid.Row="6" Grid.Column="1" VerticalOptions="Center" Placeholder="Email" BackgroundColor="#B3B3B3" Keyboard="Email" />
+            </Grid>
+        </StackLayout>
+	</ContentPage.Content>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Done" Order="Primary" Priority="1" Clicked="NextClicked"/>
+    </ContentPage.ToolbarItems>
+</ContentPage>

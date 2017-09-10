@@ -13,7 +13,7 @@ namespace SWARM_App
         {
             InitializeComponent();
 
-            MainPage = new SWARM_App.MainPage();
+            MainPage = new NavigationPage(new SWARM_App.MainPage());
         }
 
         protected override void OnStart()

@@ -53,8 +53,10 @@ namespace SWARM_App
         }
 		private void AddButton_Clicked(object sender, EventArgs e)
 		{
-            var test = new AddClient();
-			App.Current.MainPage = test;
+            Navigation.PushAsync(new AddClient());
+            //var test = new NavigationPage(new AddClient());
+            //test.Title = "Add Client";
+            //App.Current.MainPage = test;
 		}
     }
 }
