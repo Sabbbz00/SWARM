@@ -19,12 +19,12 @@ namespace SWARM_App
 		public Calendar()
         {
             InitializeComponent();
-            people = new List<Person> {
-                new Person ("Steve Calendar", "0001", "101 Address street", "416 416 4166"),
-                new Person ("Steve", "0001", "101 Address street", "416 416 4166")
-            };
+            //people = new List<Person> {
+            //    new Person ("Steve Calendar", "0001", "101 Address street", "416 416 4166"),
+            //    new Person ("Steve", "0001", "101 Address street", "416 416 4166")
+            //};
 
-            listViewCalendar.ItemsSource = people;
+            //listViewCalendar.ItemsSource = people;
         }
 		private void SearchBar_OnTextChange(object sender, TextChangedEventArgs e)
 		{
@@ -46,10 +46,18 @@ namespace SWARM_App
 				listViewCalendar.ItemsSource = searchResults;
 			}
 		}
-		private void ListView_OnItemTapped(object o, ItemTappedEventArgs e)
+		private async void ListView_OnItemTapped(object o, ItemTappedEventArgs e)
 		{
 			var dataItem = e.Item as Person;
-			DisplayAlert("Error", dataItem.Name, "Retry");
+			var answer = await DisplayAlert("Item Selected: " + dataItem.Name, "What would you like to do", "View", "Edit");
+			if (answer == true)
+			{
+				await DisplayAlert("View", "Work in progress", "wrfe");//View click
+			}
+			else
+			{
+				await DisplayAlert("Edit", "Work in progress", "wrfe");//Edit Click
+			}
 		}
 		private void AddButton_Clicked(object sender, EventArgs e)
 		{

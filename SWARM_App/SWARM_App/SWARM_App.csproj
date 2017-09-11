@@ -98,6 +98,8 @@
     <Compile Include="Pages\WorkOrder_Sec\AddWorkOrder.xaml.cs">
       <DependentUpon>AddWorkOrder.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Client.cs" />
+    <Compile Include="Employee.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">

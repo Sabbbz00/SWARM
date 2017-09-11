@@ -3,21 +3,18 @@ namespace SWARM_App
 {
     public class Person
     {
-        public string Name { get; private set; }
-
-        public string ID { get; private set; }
-
-        public string Address { get; private set; }
-
+        public string Name { get; set; }
+        public string Address { get; set; }
         public string Phone { get; set; }
+        public string Email { get; set; }
 
-        public Person(string name, string id, string address, string phone)
-        {
-            Name = name;
-            ID = id;
-            Address = address;
-            Phone = phone;
-        }
+        //public Person(string name, string address, string phone, string email)
+        //{
+        //    Name = name;
+        //    Address = address;
+        //    Phone = phone;
+        //    Email = email;
+        //}
 
         public override string ToString()
         {
