@@ -2,10 +2,11 @@
   <MonoDevelop.Ide.ItemProperties.SWARM__App.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B7A4F759-CD76-4B12-8721-4D5E1FC30B7F" />
   <MonoDevelop.Ide.Workbench ActiveDocument="SWARM_App/SWARM_App/Pages/Home_Sec/Home.xaml.cs">
     <Files>
-      <File FileName="SWARM_App/SWARM_App/Pages/Home_Sec/Home.xaml" Line="15" Column="55" />
-      <File FileName="SWARM_App/SWARM_App/Pages/Home_Sec/Home.xaml.cs" Line="26" Column="6" />
+      <File FileName="SWARM_App/SWARM_App/Pages/Home_Sec/Home.xaml" Line="37" Column="24" />
+      <File FileName="SWARM_App/SWARM_App/Pages/Home_Sec/Home.xaml.cs" Line="33" Column="4" />
       <File FileName="SWARM_App/SWARM_App/Pages/WorkOrder_Sec/AddWorkOrder.xaml" Line="35" Column="1" />
-      <File FileName="SWARM_App/SWARM_App/Pages/Employee_Sec/Employees.xaml" Line="32" Column="29" />
+      <File FileName="SWARM_App/SWARM_App/Pages/Employee_Sec/Employees.xaml" Line="8" Column="13" />
+      <File FileName="SWARM_App/SWARM_App/Pages/Employee_Sec/Employees.xaml.cs" Line="26" Column="52" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

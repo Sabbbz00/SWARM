@@ -3,6 +3,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome, Kim Montes" HorizontalOptions="Center" />
+            <Label Grid.Row="0" Grid.Column="1" x:Name="TimeName" Text="Time Here" XAlign="Center" />
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto" />
@@ -10,14 +11,30 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
-                <Label Text="{Binding Name}" FontAttributes="Bold" />
-                <Label Grid.Column="2" Text="{Binding ID}" HorizontalTextAlignment="End" />
-                <Label Grid.Row="1" Text="{Binding Address}" />
-                <Label Grid.Row="2" Text="{Binding Phone}" />
-                <Button Clicked="leftClick" Image="arrow_left.png" Grid.Row="0" Grid.Column="0"/>
-                <Label Grid.Row="0" Grid.Column="1" x:Name="TimeName" Text="Time Here" XAlign="Center" />
-                <Button Clicked="rightClick" Image="arrow_right.png" Grid.Row="0" Grid.Column="2" HorizontalOptions="End"/>
+                <Button Clicked="leftClick" Image="arrow_left.png" Grid.Row="0" Grid.Column="0" />
+                <Button Clicked="rightClick" Image="arrow_right.png" Grid.Row="0" Grid.Column="2" HorizontalOptions="End" />
             </Grid>
+            <Label Text="Calendar" HorizontalOptions="Center" />
+            <ListView x:Name="listViewEmployees" HasUnevenRows="true" RowHeight="75" ItemTapped="ListView_OnItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Label Text="{Binding Name}" FontAttributes="Bold" />
+                                <Label Grid.Column="2" Text="{Binding ID}" HorizontalTextAlignment="End" />
+                                <Label Grid.Row="1" Text="{Binding Address}" />
+                                <Label Grid.Row="2" Text="{Binding Phone}" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
