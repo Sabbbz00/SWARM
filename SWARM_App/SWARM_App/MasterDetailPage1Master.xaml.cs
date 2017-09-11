@@ -33,7 +33,7 @@ namespace SWARM_App
             {
                 MenuItems = new ObservableCollection<MasterDetailPage1MenuItem>(new[]
                 {
-                    new MasterDetailPage1MenuItem { Id = 0, Title = "Home" },
+                    new MasterDetailPage1MenuItem { Id = 0, Title = "SWARM" },
                     new MasterDetailPage1MenuItem { Id = 1, Title = "Clients" },
                     new MasterDetailPage1MenuItem { Id = 2, Title = "Calendar" },
                     new MasterDetailPage1MenuItem { Id = 3, Title = "Invoices" },
