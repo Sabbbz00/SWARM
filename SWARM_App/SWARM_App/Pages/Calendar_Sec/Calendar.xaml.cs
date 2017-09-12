@@ -14,29 +14,47 @@ namespace SWARM_App
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Calendar : ContentPage
     {
-        List<Person> people = new List<Person>();
+		string currentTime;
+		DateTime now = DateTime.Now.ToLocalTime();
+        List<CalendarItem> schedule = new List<CalendarItem>();
 
 		public Calendar()
         {
             InitializeComponent();
-            //people = new List<Person> {
-            //    new Person ("Steve Calendar", "0001", "101 Address street", "416 416 4166"),
-            //    new Person ("Steve", "0001", "101 Address street", "416 416 4166")
-            //};
+			now = DateTime.Now.ToLocalTime();
+			currentTime = now.Date.ToString("MM / dd / yyyy");//(string.Format("{0}", now));
+			TimeName.Text = currentTime;
+            schedule = new List<CalendarItem> {
+                new CalendarItem ("9/12/2017", "9:00", "11:00", "Rat Removal1", "pulls from client list via ID", "E0001"),
+                new CalendarItem ("9/11/2017", "9:00", "11:00", "Rat Removal2", "pulls from client list via ID", "E0001"),
+                new CalendarItem ("9/13/2017", "9:00", "11:00", "Rat Removal3", "pulls from client list via ID", "E0001"),
+            };
 
-            //listViewCalendar.ItemsSource = people;
+			//listViewCalendar.ItemsSource = schedule;
+			var searchResults = new List<CalendarItem>();
+			foreach (var person in schedule)
+			{
+				DateTime temp = Convert.ToDateTime(person.Date);
+				//TimeName.Text = currentTime.ToString();
+				if (temp.ToString("MM / dd / yyyy").Equals(currentTime))
+				{
+					searchResults.Add(person);
+				}
+			}
+			listViewCalendar.ItemsSource = searchResults;
+			
         }
 		private void SearchBar_OnTextChange(object sender, TextChangedEventArgs e)
 		{
 			listViewCalendar.BeginRefresh();
 			if (string.IsNullOrWhiteSpace(e.NewTextValue))
 			{
-				listViewCalendar.ItemsSource = people;
+				listViewCalendar.ItemsSource = schedule;
 			}
 			else
 			{
-				var searchResults = new List<Person>();
-				foreach (var person in people)
+                var searchResults = new List<CalendarItem>();
+				foreach (var person in schedule)
 				{
 					if (person.ToString().Contains((e.NewTextValue)))
 					{
@@ -62,6 +80,40 @@ namespace SWARM_App
 		private void AddButton_Clicked(object sender, EventArgs e)
 		{
             Navigation.PushAsync(new Add_CalendarItem());
+		}
+		private void leftClick(object sender, EventArgs e)
+		{
+			now = now.AddDays(-1);
+			currentTime = now.ToString("MM / dd / yyyy");//(string.Format("{0}", now));
+			TimeName.Text = currentTime;
+			var searchResults = new List<CalendarItem>();
+			foreach (var person in schedule)
+			{
+				DateTime temp = Convert.ToDateTime(person.Date);
+				//TimeName.Text = currentTime.ToString();
+				if (temp.ToString("MM / dd / yyyy").Equals(currentTime))
+				{
+					searchResults.Add(person);
+				}
+			}
+			listViewCalendar.ItemsSource = searchResults;
+		}
+		private void rightClick(object sender, EventArgs e)
+		{
+			now = now.AddDays(1);
+			currentTime = now.ToString("MM / dd / yyyy");//(string.Format("{0}", now));
+			TimeName.Text = currentTime;
+			var searchResults = new List<CalendarItem>();
+			foreach (var person in schedule)
+			{
+				DateTime temp = Convert.ToDateTime(person.Date);
+				//TimeName.Text = currentTime.ToString();
+				if (temp.ToString("MM / dd / yyyy").Equals(currentTime))
+				{
+					searchResults.Add(person);
+				}
+			}
+			listViewCalendar.ItemsSource = searchResults;
 		}
     }
 }

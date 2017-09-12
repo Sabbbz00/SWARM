@@ -1,27 +1,35 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SWARM_App.Calendar"
-             >
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SWARM_App.Calendar">
     <ContentPage.Content>
         <StackLayout>
-            <SearchBar Placeholder="Search" TextChanged="SearchBar_OnTextChange"></SearchBar>
+            <SearchBar Placeholder="Search" TextChanged="SearchBar_OnTextChange">
+            </SearchBar>
+            <Label Grid.Row="0" Grid.Column="1" x:Name="TimeName" Text="Time Here" XAlign="Center" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Button Clicked="leftClick" Image="arrow_left.png" Grid.Row="0" Grid.Column="0" />
+                <Button Clicked="rightClick" Image="arrow_right.png" Grid.Row="0" Grid.Column="2" HorizontalOptions="End" />
+            </Grid>
             <ListView x:Name="listViewCalendar" HasUnevenRows="true" RowHeight="75" ItemTapped="ListView_OnItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <Grid>
-                                
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="Auto" />
                                 </Grid.ColumnDefinitions>
                                 <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
                                 </Grid.RowDefinitions>
-                                <Label Text="{Binding Name}" FontAttributes="Bold" />
-                                <Label Grid.Column="2" Text="{Binding ID}" HorizontalTextAlignment="End" />
-                                <Label Grid.Row="1" Text="{Binding Address}" />
-                                <Label Grid.Row="2" Text="{Binding Phone}" />
+                                <Label Grid.Row="0" Grid.Column="0" Text="{Binding ClientID}" FontAttributes="Bold" />
+                                <Label Grid.Row="0" Grid.Column="1" Text="{Binding TimeToString}" HorizontalTextAlignment="End" />
+                                <Label Grid.Row="1" Text="{Binding ClientID}" />
+                                <Label Grid.Row="2" Text="{Binding Memo}" />
                             </Grid>
                         </ViewCell>
                     </DataTemplate>
@@ -30,6 +38,6 @@
         </StackLayout>
     </ContentPage.Content>
     <ContentPage.ToolbarItems>
-        <ToolbarItem Clicked="AddButton_Clicked" Name="+" Text="+" Icon="add.png"/>
- </ContentPage.ToolbarItems>
+        <ToolbarItem Clicked="AddButton_Clicked" Name="+" Text="+" Icon="add.png" />
+    </ContentPage.ToolbarItems>
 </ContentPage>

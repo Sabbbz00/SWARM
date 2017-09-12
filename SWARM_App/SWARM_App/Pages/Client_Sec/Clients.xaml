@@ -15,7 +15,7 @@
                                     <RowDefinition Height="Auto" />
                                 </Grid.RowDefinitions>
                                 <Label Text="{Binding Name}" FontAttributes="Bold" />
-                                <Label Grid.Column="2" Text="{Binding ID}" HorizontalTextAlignment="End" />
+                                <Label Grid.Column="2" Text="{Binding ClientID}" HorizontalTextAlignment="End" />
                                 <Label Grid.Row="1" Text="{Binding Address}" />
                                 <Label Grid.Row="2" Text="{Binding Phone}" />
                             </Grid>

@@ -1,6 +1,13 @@
 ﻿<Properties StartupConfiguration="{FD8C08C4-B3F2-4929-B307-83C9211A3D28}|Default">
   <MonoDevelop.Ide.ItemProperties.SWARM__App.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B7A4F759-CD76-4B12-8721-4D5E1FC30B7F" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SWARM_App/SWARM_App/Pages/Calendar_Sec/Calendar.xaml.cs">
+    <Files>
+      <File FileName="SWARM_App/SWARM_App/Pages/Calendar_Sec/Calendar.xaml" Line="17" Column="20" />
+      <File FileName="SWARM_App/SWARM_App/Pages/Calendar_Sec/Calendar.xaml.cs" Line="18" Column="45" />
+      <File FileName="SWARM_App/SWARM_App/CalendarItem.cs" Line="16" Column="25" />
+      <File FileName="SWARM_App/SWARM_App/Pages/Home_Sec/Home.xaml.cs" Line="15" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>

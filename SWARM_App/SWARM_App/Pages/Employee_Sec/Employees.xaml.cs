@@ -14,16 +14,17 @@ namespace SWARM_App
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Employees : ContentPage
     {
-        List<Person> people = new List<Person>();
+        List<Employee> people = new List<Employee>();
 
         public Employees()
         {
             InitializeComponent();
-            //people = new List<Person> {
-            //    new Person ("Steve Employee", "0001", "101 Address street", "416 416 4166"),
-            //    new Person ("Steve", "0001", "101 Address street", "416 416 4166")
-            //};
-            //listViewEmployees.ItemsSource = people;
+            people = new List<Employee> {
+                new Employee("Kim Montes", "18 Eagle Street", "416 416 4166", "kim@PPP.ca", "Manager", "E0001"),
+                new Employee("Brian Morris", "19 Eagle Street", "416 416 4167", "brian@PPP.ca", "Employee", "E0002"),
+                new Employee("Fahad Akhlaq", "20 Eagle Street", "416 416 4168", "Fahad@PPP.ca", "Manager", "E0003"),
+            };
+            listViewEmployees.ItemsSource = people;
         }
         private void SearchBar_OnTextChange(object sender, TextChangedEventArgs e)
         {

@@ -14,17 +14,17 @@ namespace SWARM_App
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Clients : ContentPage
     {
-        List<Person> people = new List<Person>();
+        List<Client> people = new List<Client>();
 
         public Clients()
         {
             InitializeComponent();
-            //people = new List<Person> {
-            //    new Person ("Steve Clients", "0001", "101 Address street", "416 416 4166"),
-            //    new Person ("Steve", "0001", "101 Address street", "416 416 4166")
-            //};
+            people = new List<Client> {
+                new Client ("Steve Clients", "1 Street Address", "416 416 4141", "steve@client.com", "Residential", "C0001"),
+                new Client ("Adam Seed", "2 Street Address", "416 416 4142", "adam@client.com", "Commercial", "C0002"),
+            };
 
-            //listViewClients.ItemsSource = people;
+            listViewClients.ItemsSource = people;
         }
         private void SearchBar_OnTextChange(object sender, TextChangedEventArgs e)
         {

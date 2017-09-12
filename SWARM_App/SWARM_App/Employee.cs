@@ -3,13 +3,13 @@ namespace SWARM_App
 {
     public class Employee : Person
     {
-		public int EmployeeType { get; set; }
+        public string EmployeeType { get; set; }
 		public string EmployeeID { get; set; }
 
         public Employee()
         {
         }
-		public Employee(string name, string address, string phone, string email, int employeeType, string employeeid)
+        public Employee(string name, string address, string phone, string email, string employeeType, string employeeid)
 		{
 			this.Name = name;
 			this.Address = address;
