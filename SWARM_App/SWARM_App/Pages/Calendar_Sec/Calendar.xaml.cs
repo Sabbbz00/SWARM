@@ -47,16 +47,32 @@ namespace SWARM_App
 		private void SearchBar_OnTextChange(object sender, TextChangedEventArgs e)
 		{
 			listViewCalendar.BeginRefresh();
+            TimeName.IsVisible = false;
+            leftBtn.IsVisible = false;
+            rightBtn.IsVisible = false;
 			if (string.IsNullOrWhiteSpace(e.NewTextValue))
 			{
-				listViewCalendar.ItemsSource = schedule;
+				TimeName.IsVisible = true;
+				leftBtn.IsVisible = true;
+				rightBtn.IsVisible = true;
+				var searchResults = new List<CalendarItem>();
+				foreach (var person in schedule)
+				{
+					DateTime temp = Convert.ToDateTime(person.Date);
+					//TimeName.Text = currentTime.ToString();
+					if (temp.ToString("MM / dd / yyyy").Equals(currentTime))
+					{
+						searchResults.Add(person);
+					}
+				}
+				listViewCalendar.ItemsSource = searchResults;
 			}
 			else
 			{
                 var searchResults = new List<CalendarItem>();
 				foreach (var person in schedule)
 				{
-					if (person.ToString().Contains((e.NewTextValue)))
+                    if (person.Memo.Contains((e.NewTextValue)))
 					{
 						searchResults.Add((person));
 					}
@@ -66,8 +82,8 @@ namespace SWARM_App
 		}
 		private async void ListView_OnItemTapped(object o, ItemTappedEventArgs e)
 		{
-			var dataItem = e.Item as Person;
-			var answer = await DisplayAlert("Item Selected: " + dataItem.Name, "What would you like to do", "View", "Edit");
+            var dataItem = e.Item as CalendarItem;
+            var answer = await DisplayAlert("Item Selected: " + dataItem.Memo, "What would you like to do", "View", "Edit");
 			if (answer == true)
 			{
 				await DisplayAlert("View", "Work in progress", "wrfe");//View click

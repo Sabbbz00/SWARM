@@ -9,6 +9,7 @@ using Xamarin.Forms.Xaml;
 using SWARM_App;
 using SWARM_App.Pages;
 using SWARM_App.Pages.Invoice_Sec;
+
 namespace SWARM_App
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]

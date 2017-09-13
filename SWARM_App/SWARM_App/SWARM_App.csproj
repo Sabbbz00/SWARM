@@ -193,6 +193,7 @@
     <Folder Include="Pages\Login_Sec\" />
     <Folder Include="Pages\Setting_Sec\" />
     <Folder Include="Pages\WorkOrder_Sec\" />
+    <Folder Include="Docs\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -204,9 +205,271 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\..\packages\Xamarin.Forms.2.3.4.270\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="Syncfusion.Calculate.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.Calculate.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Core.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.Core.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Linq.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.Linq.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfAutoComplete.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfAutoComplete.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfAutoComplete.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfAutoComplete.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfAutoComplete.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfAutoComplete.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfBarcode.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfBarcode.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfBarcode.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfBusyIndicator.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfBusyIndicator.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfBusyIndicator.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCalendar.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfCalendar.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCalendar.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfCalendar.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCalendar.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfCalendar.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCarousel.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfCarousel.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCarousel.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfCarousel.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCarousel.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfCarousel.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SFChart.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SFChart.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfChart.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfChart.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfChart.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfChart.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataForm.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfDataForm.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGrid.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfDataGrid.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGrid.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfDataGrid.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGrid.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfDataGrid.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDiagram.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfDiagram.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDiagram.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfDiagram.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDiagram.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfDiagram.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGauge.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfGauge.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGauge.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfGauge.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGauge.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfGauge.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGridConverter.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfGridConverter.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGridConverter.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfGridConverter.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfImageEditor.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfImageEditor.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfImageEditor.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfImageEditor.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfImageEditor.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfImageEditor.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfKanban.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfKanban.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfKanban.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfKanban.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfKanban.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfKanban.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfListView.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfListView.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfListView.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfListView.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfMaps.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfMaps.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfMaps.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfMaps.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfMaps.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfMaps.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNavigationDrawer.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfNavigationDrawer.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNavigationDrawer.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfNavigationDrawer.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNavigationDrawer.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfNavigationDrawer.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericTextBox.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfNumericTextBox.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericTextBox.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfNumericTextBox.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericTextBox.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfNumericTextBox.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericUpDown.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfNumericUpDown.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericUpDown.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfNumericUpDown.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericUpDown.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfNumericUpDown.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPdfViewer.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfPdfViewer.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPdfViewer.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfPdfViewer.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPdfViewer.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfPdfViewer.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPicker.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfPicker.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPicker.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfPicker.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPicker.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfPicker.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPullToRefresh.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfPullToRefresh.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPullToRefresh.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfPullToRefresh.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfPullToRefresh.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfPullToRefresh.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRadialMenu.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfRadialMenu.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRadialMenu.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfRadialMenu.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRadialMenu.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfRadialMenu.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRangeSlider.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfRangeSlider.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRangeSlider.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfRangeSlider.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRangeSlider.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfRangeSlider.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRating.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfRating.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRating.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfRating.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRating.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfRating.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRotator.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfRotator.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRotator.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfRotator.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRotator.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfRotator.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSchedule.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfSchedule.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSchedule.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfSchedule.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSchedule.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfSchedule.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSparkline.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfSparkline.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSparkline.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfSparkline.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSparkline.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfSparkline.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSunburstChart.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfSunburstChart.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSunburstChart.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfSunburstChart.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSunburstChart.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfSunburstChart.XForms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfTreeMap.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfTreeMap.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfTreeMap.XForms">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfTreeMap.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfTreeMap.XForms.iOS">
+      <HintPath>..\..\..\..\Syncfusion\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfTreeMap.XForms.iOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="App.config" />
+    <None Include="Docs\Template_iOS.docx" />
+    <None Include="Docs\Template.docx" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.4.270\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.4.270\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

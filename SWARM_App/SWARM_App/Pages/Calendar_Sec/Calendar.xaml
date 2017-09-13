@@ -12,8 +12,8 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
-                <Button Clicked="leftClick" Image="arrow_left.png" Grid.Row="0" Grid.Column="0" />
-                <Button Clicked="rightClick" Image="arrow_right.png" Grid.Row="0" Grid.Column="2" HorizontalOptions="End" />
+                <Button x:Name="leftBtn" Clicked="leftClick" Image="arrow_left.png" Grid.Row="0" Grid.Column="0" />
+                <Button x:Name="rightBtn" Clicked="rightClick" Image="arrow_right.png" Grid.Row="0" Grid.Column="2" HorizontalOptions="End" />
             </Grid>
             <ListView x:Name="listViewCalendar" HasUnevenRows="true" RowHeight="75" ItemTapped="ListView_OnItemTapped">
                 <ListView.ItemTemplate>
